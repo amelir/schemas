@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Token = require('./Token');
 
-const UserSchema = new mongoose.Schema({
+module.exports = new mongoose.Schema({
   firstName: {
     type: String,
     trim: true
@@ -36,5 +36,3 @@ const UserSchema = new mongoose.Schema({
 }, {
   versionKey: false
 });
-
-module.exports = mongoose.model('Users', UserSchema);

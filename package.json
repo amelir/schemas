@@ -6,6 +6,7 @@
   "author": "amelir",
   "license": "MIT",
   "dependencies": {
+    "debug": "^3.1.0",
     "mongoose": "^5.2.8"
   }
 }

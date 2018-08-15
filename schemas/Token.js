@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Token = new mongoose.Schema({
+module.exports = new mongoose.Schema({
   id: {
     type: String,
     required: true,
@@ -17,5 +17,3 @@ const Token = new mongoose.Schema({
 }, {
   _id: false
 });
-
-module.exports = Token;
