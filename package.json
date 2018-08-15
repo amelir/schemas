@@ -1,0 +1,11 @@
+{
+  "name": "schemas",
+  "version": "0.0.0-0",
+  "main": "index.js",
+  "repository": "git@github.com:amelir/auth.git",
+  "author": "amelir",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.2.8"
+  }
+}
