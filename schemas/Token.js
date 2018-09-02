@@ -13,7 +13,11 @@ module.exports = new mongoose.Schema({
     required: true
   },
   expires: Date,
-  lastAccessed: Date
+  lastAccessed: Date,
+  device: {
+    browser: String,
+    os: String
+  }
 }, {
   _id: false
 });
