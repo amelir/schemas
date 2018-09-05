@@ -32,6 +32,11 @@ module.exports = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  totp: {
+    secret: String,
+    configured: Date,
+    verified: Boolean
+  },
   tokens: [Token]
 }, {
   versionKey: false
